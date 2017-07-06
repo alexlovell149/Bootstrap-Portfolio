@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -23,59 +26,66 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
     </nav>
-    <div class="container" id="portfolio">
-        <div class="row">
+    <div class="wrap">
+        <div class="container" id="portfolio">
+            <section class="row">
+                <div class="col-md-7">
+                    <section id="portfolio-area">
+                        <h1 class="port-header">Portfolio</h1>
+                        <hr class="port-hr" />
+                        <!-- <p id="hangmanp">Hangman</p> -->
+                        <a href="https://alexlovell149.github.io/Psychic-Game/" target="_blank">
+                        <img id="port-imgs" src="https://lh5.ggpht.com/fmchicptPnAbevcPOjpK8Zf58bxSOgwyrxTfNhQAMlun4NDnffWIteLalfLUXVh2uSw=w300" class="img-circle"></a>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h1 class="panel-title">Portfolio</h1>
+                        <!-- <p Gem Miner</p> -->
+                        <a href="https://alexlovell149.github.io/week-4-game/" target="_blank">
+                        <img id="port-imgs" src="http://saratogaspringstennis.com/wp-content/uploads/2013/02/boygirlVideoGame.jpg" class="img-rounded"></a>
+                        <!-- <p id="Triviap">Trivia</p> -->
+                        <a href="https://alexlovell149.github.io/TriviaGame/" target="_blank">
+                        <img id="port-imgs" src="https://cdn.daysoftheyear.com/wp-content/images/trivia-day-1-e1450956897917-808x380.jpg" class="img-rounded"></a>
+                        <!-- 90s giphy api -->
+                        <a href="https://alexlovell149.github.io/Api/" target="_blank">
+                        <img id="port-imgs" src="https://s3.amazonaws.com/ionic-marketplace/ionic-giphy/icon.png" class="img-rounded">
+                        </a>
+                        <!-- Firebase -->
+                        <a href="https://alexlovell149.github.io/Train-Scheduler/" target="_blank">
+                        <img id="port-imgs" src="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/assets/images/firebase.png" class="img-rounded">
+                        </a>
+                        <!-- MySQL Bamazon -->
+                        <a href="https://github.com/alexlovell149/MySQLBamazon" target="_blank">
+                        <img id="port-imgs" src="https://www.handybackup.net/images/icons/mysql-backup.png" class="img-rounded">
+                        </a>
+                        <!-- Handlebar Rock -->
+                        <a href="https://rock-list-handlebars.herokuapp.com/rock" target="_blank">
+                        <img id="port-imgs" src="http://devstickers.com/assets/img/cat/handlebars-js.png" class="img-rounded">
+                        </a>
+                    </section>
                 </div>
-
-                <div class="panel-body">
-                    <div class="col-xs-3">
-                        <p id="hangmanp">Hangman</p>
-                        <img id="hangman" src="https://lh5.ggpht.com/fmchicptPnAbevcPOjpK8Zf58bxSOgwyrxTfNhQAMlun4NDnffWIteLalfLUXVh2uSw=w300" class="img-circle">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <p class="panel-title">Connect With Me</p>
+                            </div>
+                            <div class="panel panel-body">
+                                <a href="https://www.linkedin.com/in/alexlovell149/" target="_blank"> <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+                                <a href="https://github.com/alexlovell149" target="_blank"> <i class="fa fa-github fa-4x" style="color:black" aria-hidden="true"></i></a>
+                                <a href="http://stackoverflow.com/users/7263480/alex-lovell" target="_blank"> <i class="fa fa-stack-overflow fa-4x" style="color: orange" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-xs-3">
-                        <p id=RPGgame>RPG Game</p>
-                        <img id="RPG" src="http://saratogaspringstennis.com/wp-content/uploads/2013/02/boygirlVideoGame.jpg" class="img-rounded">
-                    </div>
-
-                   <div class="row">
-
-                   	<div id="Triviac" class="col-xs-3">
-                   		<p id="Triviap">Trivia</p>
-                   		<img id="Trivia" src="https://cdn.daysoftheyear.com/wp-content/images/trivia-day-1-e1450956897917-808x380.jpg" class="img-rounded">
-                   	</div>
-                   	<div class="col-xs-3"></div>
-                   </div>
                 </div>
-            </div>
+            </section>
         </div>
-        <div class="row">
-        <div class="col-xs-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Connect With Me</h3>
-                </div>
-                <div class="panel-body">
-                    <a href="https://www.linkedin.com/in/alexlovell149/"> <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-                    <a href="https://github.com/alexlovell149"> <i class="fa fa-github fa-4x" style="color:black" aria-hidden="true"></i></a>
-                    <a href="http://stackoverflow.com/users/7263480/alex-lovell"> <i class="fa fa-stack-overflow fa-4x" style="color: orange" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 </body>
 

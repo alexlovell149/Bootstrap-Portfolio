@@ -1,7 +1,9 @@
  
 /*allowed me to push my footer to the bottom of the page and stay*/
  html {
-     height: 100%
+     min-height: 100%;
+     position: relative;
+
  }
 
 
@@ -16,7 +18,17 @@
      background-color: #4aaaa5;
      font-family: 'Georgia', Times, "Times New Roman", serif;
      color: white;
-     font-size: 30px;
+     font-size: 24px;
+     font-weight: bold;
+     padding-top: 20px;
+     padding-bottom: 5px;
+
+ }
+
+ .navbar-right-custom{
+     padding-top: 6px;
+     padding-right: 20px;
+     font-weight: lighter;
  }
 
 
@@ -63,13 +75,10 @@
  }
  
  
- 
- 
- 
  body {
      background-image: url("ep_naturalwhite.png");
-     position: relative;
      min-height: 100%;
+     width: 100%;
 
  }
  
@@ -84,12 +93,20 @@
  button {
      background-color: #4aaaa5;
      color: white;
-     padding: 10px;
+     padding: 15px;
+     font-size: 16px;
+     border: 0;
  }
 
- h3 {
-     text-align: center;
-     float: left;
+ .port-hr {
+     margin-bottom: 40px;
+ }
+
+ #port-imgs{
+     width: 233px;
+     height: 166px;
+     margin-right: 15px;
+     margin-bottom: 15px;
  }
  
  /*container for portfolio page with the sub-colummns*/
@@ -104,104 +121,7 @@
      font-size: 30px;
  }
  
- /*container*/
- .hangman {
-     position: absolute;
-     text-align: center;
- }
- 
- /*image*/
- #hangman {
-     width: 150px;
-     height: 131px;
- }
- /*paragraph*/
- #hangmanp {
-     position: absolute;
-     margin-top: 91px;
-     color: white;
-     margin-left: 59px;
-     background-color: #4aaaa5;
-     width: 111px;
-     font-size: 16px;
- }
- 
- #RPG {
-     width: 221px;
-     height: 151px;
- }
- 
- #RPGgame {
-     position: absolute;
-     margin: 127px;
-     background-color: #4aaaa5;
-     margin-left: 8px;
-     width: 217px;
-     color: white;
-     font-size: 16px;
- }
- 
- #Triviac {
-     margin-top: 176px;
-     margin-left: -532px;
- }
- 
- #Trivia {
-     margin-top: 29px;
-     width: 181px;
-     height: 131px;
- }
- 
- #Triviap {
-     position: absolute;
-     background-color: #4aaaa5;
-     color: white;
-     font-size: 16px;
-     width: 181px;
-     margin-top: 138px;
-     margin-left: 31px;
- }
- 
- 
- /*did not get a chance to add this piece in html*/
- .Rutgers {
-     float: right;
-     position: absolute;
- }
- 
- /*did not get a chance to add this piece in html*/
- #Rutgersp {
-     position: absolute;
-     text-align: center;
-     background-color: #4aaaa5;
-     padding: 5px;
-     width: 194px;
-     color: white;
-     font-size: 20px;
-     margin-top: 284px;
-     margin-left: 283px;
- }
- 
- 
- /*did not get a chance to add this piece in html*/
- .Rock_Paper_Scissors {
-     position: absolute;
- }
 
- /*did not get a chance to add this piece in html*/
- #RPSp {
-     position: absolute;
-     text-decoration: none;
-     text-align: center;
-     background-color: #4aaaa5;
-     color: white;
-     font-size: 20px;
-     margin-top: 461px;
-     padding: 5px;
-     margin-left: 26px;
-     width: 190px;
- }
- 
  
  
  
