@@ -122,7 +122,19 @@
  }
  
 
- 
+ #portfolio-area {
+  /* Box-model */
+  width: 85%;
+  padding: 45px 10px 25px 31px;
+
+  /* Positioning */
+  margin-top: 30px;
+  margin-bottom: 200px;
+
+  /* Visual */
+  background-color: #fff;
+  border: 2px solid black;
+}
  
  
  /*footer for all pages*/
