@@ -91,7 +91,8 @@
  body {
      background-image: url("http://traveldilse.com/wp-content/uploads/2014/05/wallpapers-website-background-web-singlescreen-backgrounds-images-desktop-1920x1200.jpg");
      height: 100%;
-     background-size: 100%;
+     width: 100%;
+     background-size: cover;
      background-repeat: no-repeat;
  }
  /*my paragraphs for the about me page*/
