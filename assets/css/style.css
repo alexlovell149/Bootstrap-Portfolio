@@ -1,19 +1,16 @@
+ /*allowed me to push my footer to the bottom of the page and stay*/
  
-/*allowed me to push my footer to the bottom of the page and stay*/
  html {
      min-height: 100%;
      position: relative;
-
  }
-
-
+ /*controls my navbar header*/
  
-/*controls my navbar header*/
- .navbar-default .navbar-brand{
+ .navbar-default .navbar-brand {
      color: white;
  }
- 
  /*controls navbar totally*/
+ 
  .navbar-brand {
      background-color: #4aaaa5;
      font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -22,74 +19,93 @@
      font-weight: bold;
      padding-top: 20px;
      padding-bottom: 5px;
-
  }
-
- .navbar-right-custom{
+ 
+ .navbar-right-custom {
      padding-top: 6px;
      padding-right: 20px;
      font-weight: lighter;
  }
-
-
-
-/*controld the contact header*/
+ 
+ .glyphicon {
+     padding: 10px;
+ }
+ /*controls the contact header*/
+ 
  #contact {
      margin-left: 0;
  }
-
-/*controls all page headers*/
+ /*controls all page headers*/
+ 
  .page-header {
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Arial', sans-serif;
      color: red;
  }
-
-/*controls the width of my forms in my contact container*/
+ /*controls the width of my forms in my contact container*/
+ 
  form {
      width: 100%
  }
-
- 
  /*social media box*/
-.panel-default {
-     margin: 40px;
-} 
 
+ #port-connect {
+    width: 50%;
+    opacity: 0.7;
+    margin:40px;
+ }
+
+ #index-connect {
+    width: 85%;
+    opacity: 0.7;
+    margin:40px;
+ }
+
+ #contact-connect {
+    width: 80%;
+    opacity: 0.7;
+    margin:80px;
+ }
+ 
+ 
  .panel-title {
      text-align: center;
      color: red;
  }
- 
  /*controls the social media connect for every page*/
+ 
  .panel-body {
      text-align: center;
  }
- 
  /*this fixed my spacing from the left side of the page with the contact container*/
-.container.container-contact {
+ 
+ .container.container-contact {
      background-color: white;
      border-style: ridge;
      padding-bottom: 30px;
      width: 50%;
      float: left;
+     margin-left: 30px;
+     opacity: 0.7;
  }
- 
  
  body {
-     background-image: url("ep_naturalwhite.png");
-     min-height: 100%;
-     width: 100%;
-
+     background-image: url("http://traveldilse.com/wp-content/uploads/2014/05/wallpapers-website-background-web-singlescreen-backgrounds-images-desktop-1920x1200.jpg");
+     height: 100%;
+     background-size: 100%;
+     background-repeat: no-repeat;
  }
+ /*my paragraphs for the about me page*/
  
-/*my paragraphs for the about me page*/
  .caption {
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
+     color: red;
+     background-color: white;
+     opacity: 0.7;
+     padding: 17px;
  }
- 
- 
  /*submit button on contact me page*/
+ 
  button {
      background-color: #4aaaa5;
      color: white;
@@ -97,19 +113,19 @@
      font-size: 16px;
      border: 0;
  }
-
+ 
  .port-hr {
      margin-bottom: 40px;
  }
-
- #port-imgs{
+ 
+ #port-imgs {
      width: 233px;
      height: 166px;
      margin-right: 15px;
      margin-bottom: 15px;
  }
- 
  /*container for portfolio page with the sub-colummns*/
+ 
  .container.portfolio {
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
      background-color: white;
@@ -121,23 +137,20 @@
      font-size: 30px;
  }
  
-
  #portfolio-area {
-  /* Box-model */
-  width: 85%;
-  padding: 45px 10px 25px 31px;
-
-  /* Positioning */
-  margin-top: 30px;
-  margin-bottom: 200px;
-
-  /* Visual */
-  background-color: #fff;
-  border: 2px solid black;
-}
- 
- 
+     /* Box-model */
+     width: 85%;
+     padding: 45px 10px 25px 31px;
+     /* Positioning */
+     margin-top: 30px;
+     margin-bottom: 200px;
+     /* Visual */
+     background-color: #fff;
+     border: 2px solid black;
+     opacity: 0.7;
+ }
  /*footer for all pages*/
+ 
  #footer {
      background-color: #666666;
      font-size: 10pt;
@@ -151,10 +164,3 @@
      padding: 2rem;
      position: absolute;
  }
-
-
-
-
-
-
-
