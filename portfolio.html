@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <meta name=viewport content='width=700'>
     <title>Portfolio</title>
 </head>
@@ -44,31 +46,83 @@
                         <h1 class="port-header">Portfolio</h1>
                         <hr class="port-hr" />
                         <!-- <p id="hangmanp">Hangman</p> -->
-                        <a href="https://alexlovell149.github.io/Psychic-Game/" target="_blank">
-                        <img id="port-imgs" src="https://lh5.ggpht.com/fmchicptPnAbevcPOjpK8Zf58bxSOgwyrxTfNhQAMlun4NDnffWIteLalfLUXVh2uSw=w300" class="img-circle"></a>
-
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="https://lh5.ggpht.com/fmchicptPnAbevcPOjpK8Zf58bxSOgwyrxTfNhQAMlun4NDnffWIteLalfLUXVh2uSw=w300" class="img-circle">
+                            </div>
+                            <div class="back">
+                                <p>App using basic javascript algorithms</p>
+                                <a href="https://alexlovell149.github.io/Psychic-Game/" target="_blank">Psychic Game</a>
+                            </div>
+                        </div>
                         <!-- <p Gem Miner</p> -->
-                        <a href="https://alexlovell149.github.io/week-4-game/" target="_blank">
-                        <img id="port-imgs" src="http://saratogaspringstennis.com/wp-content/uploads/2013/02/boygirlVideoGame.jpg" class="img-rounded"></a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="http://saratogaspringstennis.com/wp-content/uploads/2013/02/boygirlVideoGame.jpg" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>HTML/CSS, Javascript based game</p>
+                                <a href="https://alexlovell149.github.io/week-4-game/" target="_blank">Gem Miner</a>
+                            </div>
+                        </div>
+
                         <!-- <p id="Triviap">Trivia</p> -->
-                        <a href="https://alexlovell149.github.io/TriviaGame/" target="_blank">
-                        <img id="port-imgs" src="https://cdn.daysoftheyear.com/wp-content/images/trivia-day-1-e1450956897917-808x380.jpg" class="img-rounded"></a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="https://cdn.daysoftheyear.com/wp-content/images/trivia-day-1-e1450956897917-808x380.jpg" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>Game using fundamental jQuery methods that involve time, arrays, and intervalIds</p>
+                                <a href="https://alexlovell149.github.io/TriviaGame/" target="_blank">Trivia Game</a>
+                            </div>
+                        </div>
+                        
                         <!-- 90s giphy api -->
-                        <a href="https://alexlovell149.github.io/Api/" target="_blank">
-                        <img id="port-imgs" src="https://s3.amazonaws.com/ionic-marketplace/ionic-giphy/icon.png" class="img-rounded">
-                        </a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="https://s3.amazonaws.com/ionic-marketplace/ionic-giphy/icon.png" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>Site using Api calls and jQuery from giphy to create 90s gifs</p>
+                                <a href="https://alexlovell149.github.io/Api/" target="_blank">90s Nostalgif</a>
+                            </div>
+                        </div>
+
                         <!-- Firebase -->
-                        <a href="https://alexlovell149.github.io/Train-Scheduler/" target="_blank">
-                        <img id="port-imgs" src="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/assets/images/firebase.png" class="img-rounded">
-                        </a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/assets/images/firebase.png" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>Site using Firebase as a server to create train routes and calculate time to and from the station</p>
+                                <a href="https://alexlovell149.github.io/Train-Scheduler/" target="_blank">Train Scheduler</a>
+                            </div>
+                        </div>
+
+
                         <!-- MySQL Bamazon -->
-                        <a href="https://github.com/alexlovell149/MySQLBamazon" target="_blank">
-                        <img id="port-imgs" src="https://www.handybackup.net/images/icons/mysql-backup.png" class="img-rounded">
-                        </a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="https://www.handybackup.net/images/icons/mysql-backup.png" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>Site using Node.js and Terminala and MySQL to create a database table that updates itself as inventory is added and removed and created</p>
+                                <a href="https://github.com/alexlovell149/MySQLBamazon" target="_blank">MySQL Bamazon</a>
+                            </div>
+                        </div>
+
+                        
                         <!-- Handlebar Rock -->
-                        <a href="https://rock-list-handlebars.herokuapp.com/rock" target="_blank">
-                        <img id="port-imgs" src="http://devstickers.com/assets/img/cat/handlebars-js.png" class="img-rounded">
-                        </a>
+                        <div class="flipper">
+                            <div class="front">
+                                <img id="port-imgs" src="http://devstickers.com/assets/img/cat/handlebars-js.png" class="img-rounded">
+                            </div>
+                            <div class="back">
+                                <p>Site using Node.js, Express, and Sequelize to manage a MySQL database for adding one's own personal Rock Hall of Fame</p>
+                                <a href="https://rock-list-handlebars.herokuapp.com/rock" target="_blank">Sequelized Rock</a>
+                            </div>
+                        </div>
+
                     </section>
                 </div>
                 <div class="row">
